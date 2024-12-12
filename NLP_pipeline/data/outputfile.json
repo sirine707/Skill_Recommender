@@ -7,6 +7,7 @@
             "Métiers": "Comptable, Contrôleur de Gestion, Trésorier ou Financier, Cadre comptable et Financier*, Manager *, (* après une expérience)",
             "Secteurs d’activité": "Cabinets d’expertise comptable, Départements comptables et ﬁnanciers des entreprises publiques ou privées, Banques, Leasing, Assurances",
             "Partenariats professionnels": "> Entreprise de services numériques, >Sociétés de conseil, >Entreprises industrielles, > Banques et Assurances",
+            "Période d'Harmonisation": "",
             "Semestre 1": "Principes de gestion 1, Comptabilité financière 1, Microéconomie, Mathématique 1, Introduction au droit, Mathématiques financières, Anglais 1, Aptitudes en TIC 1",
             "Semestre 2": "Principes de gestion 2, Comptabilité financière 2, Mathématique 2, Statistique descriptive et calculs de probabilité, Macroéconomie, Droit des sociétés commerciales, Anglais 2, Aptitudes en TIC 2",
             "Semestre 3": "Comptabilité intermédiaire I, Comptabilité de gestion, Séminaire métiers, Anglais des affaires I, Culture entrepreneuriale, Droit des affaires, Économie des affaires",
@@ -21,6 +22,7 @@
             "Métiers": "Chargé de Clientèle, Chef de Projet, Chef de Produit, Manager e-Business, Office Manager, Assistant Administratif & Commercial, Responsable des Ressources Humaines, Responsable Logistique, Manager de Point de Vente, Conseiller en Organisation d’Entreprise, Consultant en Management Qualité, Gestionnaire de Patrimoine, Business Developer",
             "Secteurs d’activité": "Entreprises de services numériques, Entreprises industrielles, Sociétés de conseil, Agences de communication, Banques & Assurances, Commerce & e-commerce, Télécommunications",
             "Partenariats professionnels": "> Agence de communication, > Sociétés de conseil, > Entreprises de commerce et commerce électronique, > Entreprises industrielles",
+            "Période d'Harmonisation": "",
             "Semestre 1": "Principes de gestion 1, Comptabilité financière 1, Microéconomie, Mathématique 1, Introduction au droit, Mathématiques financières, Anglais 1, Aptitudes en TIC 1, Projet intégré, Séminaire culture générale 1",
             "Semestre 2": "Principes de gestion 2, Comptabilité financière 2, Mathématique 2, Statistique descriptive et calculs de probabilité, Macroéconomie, Droit des sociétés commerciales, Anglais 2, Aptitudes en TIC 2, Projet intégré, Séminaire culture générale 2",
             "Semestre 3": "Fondamentaux en management, Comptabilité de gestion, Fondamentaux en marketing, Séminaire orienté métiers 1, Fiscalité, Statistique inférentielle, Anglais, Culture entrepreneuriale, Projet intégré",
@@ -35,11 +37,13 @@
             "Métiers": "Développeur, Testeur, Concepteur, Architecte Système Responsable du SI Métier Administrateur de Bases de Données Administrateur Système Informatique Consultant Informatique Concepteur de Sites WEB",
             "Secteurs d’activité": "Sociétés de services informatique Éditeurs de logiciels Banques & Assurances Entreprises commerciales Entreprises industrielle",
             "Partenariats professionnels": ">Entreprises de services numériques > Banques et Assurances > Opérateurs de télécommunication",
+            "Période d'Harmonisation": "",
             "Semestre 1": "Algorithmique et Structures de Données 1\nSystèmes d’Exploitation Systèmes Logiques et Architectures des Ordinateurs\nAnalyse\nStatistiques et Probabilités\nPrincipes de Gestion\nComptabilité générale\nCompétences Numériques : Excel avancé\nBusiness Communication 1\nPrincipes de l’économie\nTravail Collaboratif\nInterface Homme Machine\nSéminaire",
             "Semestre 2": "Algorithmique et Structures de Données 2\nFondements des réseaux\nIntroduction aux Systèmes d’Information\nLogique Mathématique\nAlgèbre\nSystèmes d’Information Comptable\nGestion Financière\nBusiness Communication 2\nDéveloppement durable\nProjet Tuteuré\nIntroduction à l’informatique décisionnelle\nMarketing Stratégique",
             "Semestre 3": "Programmation OO\nProgrammation Web 1\nConception OO des Systèmes d’Information\nBases de Données\nStatistiques Inférentielles\nFondements de l’IA\nMarketing Digital\nEconomie Numérique\nEthique et Lois des IT\nProjet Professionnel Personnel (PPP)\nSocial Media\nManagement des Projets\nSéminaire",
             "Semestre 4": "Gestion des Opérations et de la logistique\nBusiness Process Management\nFramework .Net\nProgrammation Web2\nSGBD & Administration des BDs\nGouvernance des SI\nSécurité des SI\nProblem Solving\nAnglais\nProjet Tuteuré métier\nEntrepreneuriat & Innovation\nBig Data",
-            "Semestre 5": "Intégration des SI\nERP\nGénie Logiciel\nGestion des Projets SI\nDéveloppement Mobile \nDéveloppement JEE\nBusiness Intelligence  \nStratégies d’Affaires électroniques \nProfessional Network Service – gestion de carrière\nAnglais d’Affaires\nE-Business\nE-CRM\nSéminaire métier"
+            "Semestre 5": "Intégration des SI\nERP\nGénie Logiciel\nGestion des Projets SI\nDéveloppement Mobile \nDéveloppement JEE\nBusiness Intelligence  \nStratégies d’Affaires électroniques \nProfessional Network Service – gestion de carrière\nAnglais d’Affaires\nE-Business\nE-CRM\nSéminaire métier",
+            "Semestre 6": ""
         },
         {
             "Objectifs": "L’objectif est de former des consultants dotés d’une assise théorique et technique solide leur permettant de concevoir, développer et exploiter des applications décisionnelles.Ce parcours est disponible en double diplôme en Systèmes d’Information et Aide à la Décision avec l’Université",
@@ -48,11 +52,13 @@
             "Métiers": "Consultant BI\nAnalyste / Consultant Décisionnel\nExpert Logiciel (ETL, PowerBI, etc.)\nIntégrateur d’Applications Décisionnelles\nAnalyste d’Affaires",
             "Secteurs d’activité": "Sociétés de services informatique\nÉditeurs de logiciels\nBanques & Assurances\nEntreprises commerciales\nEntreprises industrielles",
             "Partenariats professionnels": "\n>Entreprises de services numériques\n> Banques et Assurances\n> Opérateurs de télécommunication",
+            "Période d'Harmonisation": "",
             "Semestre 1": "Algorithmique et Structures de Données 1\nSystèmes d’Exploitation Systèmes Logiques et Architectures des Ordinateurs\nAnalyse\nStatistiques et Probabilités\nPrincipes de Gestion\nComptabilité générale\nCompétences Numériques : Excel avancé\nBusiness Communication 1\nPrincipes de l’économie\nTravail Collaboratif\nInterface Homme Machine\nSéminaire",
             "Semestre 2": "Algorithmique et Structures de Données 2\nFondements des réseaux\nIntroduction aux Systèmes d’Information\nLogique Mathématique\nAlgèbre\nSystèmes d’Information Comptable\nGestion Financière\nBusiness Communication 2\nDéveloppement durable\nProjet Tuteuré\nIntroduction à l’informatique décisionnelle\nMarketing Stratégique",
             "Semestre 3": "Programmation OO\nProgrammation Web 1\nConception OO des Systèmes d’Information\nBases de Données\nStatistiques Inférentielles\nFondements de l’IA\nMarketing Digital\nEconomie Numérique\nEthique et Lois des IT\nProjet Professionnel Personnel (PPP)\nSocial Media\nManagement des Projets\nSéminaire",
             "Semestre 4": "Gestion des Opérations et de la logistique\nBusiness Process Management\nFramework .Net\nProgrammation Web2\nSGBD & Administration des BDs\nGouvernance des SI\nSécurité des SI\nProblem Solving\nAnglais\nProjet Tuteuré métier\nEntrepreneuriat & Innovation\nBig Data",
-            "Semestre 5": "Intégration des SI\nERP\nGénie Logiciel\nGestion des Projets SI\nDéveloppement Mobile\nDéveloppement JEE\nBusiness Intelligence\nStratégies d’Affaires électroniques\nProfessional Network Service – gestion de carrière\nAnglais d’Affaires\nE-Business\nE-CRM\nSéminaire métier"
+            "Semestre 5": "Intégration des SI\nERP\nGénie Logiciel\nGestion des Projets SI\nDéveloppement Mobile\nDéveloppement JEE\nBusiness Intelligence\nStratégies d’Affaires électroniques\nProfessional Network Service – gestion de carrière\nAnglais d’Affaires\nE-Business\nE-CRM\nSéminaire métier",
+            "Semestre 6": ""
         },
         {
             "Objectifs": "Le monde est devenu mathématique. La décision repose sur l’analyse de données de plus en plus massives – Big Data., LaLicence en Mathématiques Appliquées à l’Analyse des Données et à l’Aide à la Décisionfait appel à des outils d’intelligence artificielle et de machine learning et à des compétences et savoir-faire mathématiques et statistiques., Cette licence s’adresse aux bacheliers en mathématiques, informatique, sciences expérimentales, sciences techniques et tout autre diplôme équivalent., MATHÉMATIQUES ET STATISTIQUES :",
@@ -61,11 +67,13 @@
             "Métiers": "Analyste de Données, Chargé d’Études Actuarielles en Assurances, Front Office Marché Financier, Trader Analyste de Crédit et Risque Bancaire, Data Miner / Data Scientist, Expert en BI, Business Analyst, Statisticien",
             "Secteurs d’activité": "Sociétés de services informatique, Éditeurs de logiciels, Banques et Assurances, Entreprises commerciales, Entreprises industrielles",
             "Partenariats professionnels": "> Entreprises de services numériques, > Banques et Assurances, > Sociétés de conseil",
+            "Période d'Harmonisation": "",
             "Semestre 1": "Algèbre 1, Analyse 1, Base de données, Programmation C, Anglais 1, Atelier programmation R, Séminaire 1",
             "Semestre 2": "Algèbre 2, Analyse 2, Systèmes de gestion de bases de données, Système d’information d’aide à la décision, Anglais 2, Atelier de programmation Python 1, Séminaire 2",
             "Semestre 3": "Algèbre 3, Analyse 3, Intelligence artificielle, Programmation C avancé, Atelier Python 2, Anglais 3, Séminaire 3",
             "Semestre 4": "Recherche opérationnelle, Analyse 4, Introduction Big DATA, Programmation OO, Projet professionnel personnel, Atelier de programmation Python 3, Séminaire 4",
-            "Semestre 5": "Probabilités, Calcul différentiel, Mathématiques discrètes, Analyse des données, Gestion de carrière, Atelier Data Science, Séminaire 5"
+            "Semestre 5": "Probabilités, Calcul différentiel, Mathématiques discrètes, Analyse des données, Gestion de carrière, Atelier Data Science, Séminaire 5",
+            "Semestre 6": ""
         }
     ],
     "masters": [
@@ -80,7 +88,9 @@
             "Semestre 1": "Gestion de projets et conduite au changement\nManagement de l’innovation\nRecherche opérationnelle\nSGBD et PL/SQL\nSystèmes d’information décisionnels\nKnowledge management\nVeille et intelligence technologique\nCompétences personnelles et relationnelles\nSéminaire métiers I\nAnglais I",
             "Semestre 2": "Management stratégique\nPilotage de projets décisionnels\nSéries temporelles\nIntroduction au cloud computing\nMachine learning\nData mining\nAnglais II\nSéminaire métiers I\nProjet tuteuré orienté business intelligence\nAnalyse des données financières\nAnalyse de données marketing\ne-Business",
             "Semestre 3": "Business process management\nDroit des données numériques\nDeep learning et IA\nGouvernance et sécurité des données\nBig Data analytics\nData visualization\nAnglais III\nProjet tutoré orienté Big Data\nSéminaire métiers\nArchitecture orientée services\nIoT\nDigital technology & Business value",
-            "Semestre 4": "Atelier BI\nStage de 6 mois en Entreprise (SFE)"
+            "Semestre 4": "Atelier BI\nStage de 6 mois en Entreprise (SFE)",
+            "Semestre 5": "",
+            "Semestre 6": ""
         },
         {
             "Objectifs": "Le Master Professionnel en Finance Digitale vise à former des cadres financiers de haut niveau dotés des compétences informatiques et financières requises par les secteurs à forte présence technologique comme le secteur bancaire, les assurances, les cabinets d’audit et de conseil en finance digitale «les Fintech.»., Le Master Professionnel en Finance Digitale est disponible en double diplôme avec le Master Fintech de MBS., ",
@@ -89,10 +99,13 @@
             "Métiers": "Analyste Financier, Chef de Projet FinTech, Conseiller Financier, Conseiller en Sécurité et Cryptographie, Trader de Crypto-Actifs, Consultant en Innovation Financière",
             "Secteurs d’activité": "Secteur Bancaire et des Assurances, Organismes de Placement et de Gestion d’Actifs, Cabinets de Conseil et d’Audit, Entreprises du secteur des Technologies & IT",
             "Partenariats professionnels": "> Banques et Assurances, > Entreprises Fintech",
+            "Période d'Harmonisation": "",
             "Semestre 1": "Intelligence artificielle en finance, Analyse financière approfondie, Finance de marché, Microstructure des marchés financiers, Droit financier, Anglais I, Culture numérique / Séminaires métiers I, Projet tutoré I, VBA Excel /BD & SGBD",
             "Semestre 2": "Big Data, Inclusion financière, Finance internationale & globalisation financière, Management de l’innovation, Produits bancaires innovants, Econométrie appliquée à la finance, Efficacité professionnelle & Compétences personnelles, Projet tutoré II, Solutions SI : ERP, CRM & Core Banking / Actuariat",
             "Semestre 3": "Datamining, Trading à haute fréquence (THF), Technologies RPA, Technologies BlockChain & Crypto-monnaies, Ethiques et risques de la Fintech, Cyber sécurité et cryptographie, RegTech, Lois relatives à la protection des données personnelles, Anglais II/Préparation & Insertion à la vie professionnelle, Atelier de design Thinking / Séminaires métiers III, Projet tutoré III, Applications financières : Open Banking /Assurance digitale : InsurTech",
-            "Semestre 4": "Stage de fin d’études L’accès au Master :"
+            "Semestre 4": "Stage de fin d’études L’accès au Master :",
+            "Semestre 5": "",
+            "Semestre 6": ""
         },
         {
             "Objectifs": "Le Master Professionnel en Gestion Actuarielle et Modélisation Mathématiquevise à former des diplômés dotés de compétences en mathématiques, statistiques et en Intelligence Artificielle., À l’issue de ce master, les diplômés seront dotés d’expertises en Actuariat et Gestion du Risque. Le Master Professionnel en Gestion Actuarielle et Modélisation Mathématique est construit en partenariat avec l’Association Tunisienne des Actuaires et disponible en double diplôme avec le Master d’Actuariat de l’Université du Mans., ",
@@ -101,10 +114,13 @@
             "Métiers": "Actuaire, Data Scientist / Data Analyst, Responsable d’Enquêtes Terrain, Opérateur sur Marchés Financiers, Trader, Chargé d’Études Actuarielles en Assurances, Analyste de Crédits et Risques Bancaires, Analyste Financier",
             "Secteurs d’activité": "Banques, Assurances & Bourses, Organisme d’Études et de Sondage, Caisse de retraite et de Prévoyance, Entreprises Commerciales ou Industrielles",
             "Partenariats professionnels": "> Association Tunisienne des Actuaires, > Banques et Assurances",
+            "Période d'Harmonisation": "",
             "Semestre 1": "Intégration et Probabilité, Analyse numérique, Atelier de programmation avec Python, Bases de données, Statistiques inférentielles, Introduction à l’actuariat, Comptabilité générale et financière, Théorie du risque, Anglais1 /Séminaire 1, Projet tutoré 1 (Programmation VBA)",
             "Semestre 2": "Modèles linéaires généralisés, Séries temporelles, Fondamentaux en probabilités, Méthodes de Monte-Carlo, Actuariat vie et non vie, Machine Learning, Modèles financiers, Management des risques, Comptabilité sectorielle (Assurance), Droit numérique et protection des données personnelles, Anglais2/ Séminaire 2, Projet tutoré 2 (Programmation VBA)",
             "Semestre 3": "Modèles aléatoires pour l’actuariat et la finance, Actuariat pour la réassurance et risques extrêmes, Modélisation et mesure du risque, Asset and Liability Management (ALM), Apprentissage statistique, Big Data Analytics, Droit des entreprises d’assurance et réglementation, Gestion de risque de l’assurance, Préparation et Insertion professionnelle / Séminaire 3, Projet tutoré 3",
-            "Semestre 4": "Stage de 6 mois  en Entreprise (SFE)"
+            "Semestre 4": "Stage de 6 mois  en Entreprise (SFE)",
+            "Semestre 5": "",
+            "Semestre 6": ""
         },
         {
             "Objectifs": "Le monde est devenu mathématique. La décision repose sur l’analyse de données de plus en plus massives – Big Data.\nLaLicence en Mathématiques Appliquées à l’Analyse des Données et à l’Aide à la Décisionfait appel à des outils d’intelligence artificielle et de machine learning et à des compétences et savoir-faire mathématiques et statistiques.\nCette licence s’adresse aux bacheliers en mathématiques, informatique, sciences expérimentales, sciences techniques et tout autre diplôme équivalent.",
@@ -113,6 +129,7 @@
             "Métiers": "Analyste de Données\nChargé d’Études Actuarielles en Assurances\nFront Office Marché Financier\nTrader Analyste de Crédit et Risque Bancaire\nData Miner / Data Scientist\nExpert en BI\nBusiness Analyst\nStatisticien",
             "Secteurs d’activité": "Sociétés de services informatique\nÉditeurs de logiciels\nBanques et Assurances\nEntreprises commerciales\nEntreprises industrielles",
             "Partenariats professionnels": "> Entreprises de services numériques\n> Banques et Assurances\n> Sociétés de conseil",
+            "Période d'Harmonisation": "",
             "Semestre 1": "Algèbre 1; Analyse 1; Base de données; Programmation C; Anglais 1; Atelier Programmation R; Séminaire 1",
             "Semestre 2": "Algèbre 2; Analyse 2; SGBD; Système d’information d’aide à la décision; Anglais 2; Atelier de programmation Python 1; Séminaire 2",
             "Semestre 3": "Algèbre 3; Analyse 3; Intelligence artificielle; Programmation C Avancé; Atelier Python 2; Anglais 3; Séminaire 3",
@@ -132,7 +149,9 @@
             "Semestre 2": "Management des projets et conduite du changement\nVeille et intelligence technologique\nTransformation digitale & supply chain\nWeb marketing\nBusiness process management\nAnalyse des données et prise de décision\nOutillage en machine learning\nProjet intégré II\nAnglais II\nCompétences personnelles et relationnelles\nSéminaires métiers II",
             "Semestre 3": "SI décisionnels et Big Data\nSolution SI : ERP, CRM & BI\nGouvernance et audit des SI\nBig Data et gouvernance des données personnelles\nManagement des équipes et transition digitale\nManagement interculturel\nAnalyse et conception des SI\nModélisation des Data Warehouse",
             "Période d’Harmonisation": "Probabilités et analyse statistique\nAtelier de programmation et introduction aux SI\nIntroduction au management et gestion de Projets\nAnglais\nFrançais\nSéminaires",
-            "Semestre 4": "Stage en entreprise (PFE)"
+            "Semestre 4": "Stage en entreprise (PFE)",
+            "Semestre 5": "",
+            "Semestre 6": ""
         },
         {
             "Objectifs": "Le Master Professionnel en Comptabilité, Contrôle, Auditpermet de former des professionnels dans les domaines de la comptabilité, de la finance, du contrôle de gestion, de la fiscalité et de l’audit, capables d’intervenir et d’évoluer dans un contexte digitalisé., Ce master constitue une préparation à l’examen national d’expertise comptable. Son contenu couvre 70% de la formation de révision comptable., Le Master Professionnel en Comptabilité, Contrôle, Auditest disponible en double diplôme avec l’Université du Mans.",
@@ -141,10 +160,13 @@
             "Métiers": "Cadre opérationnel et supérieur, Auditeur et conseiller comptable, Responsable d’audit interne, Comptable agréé, Contrôleur de gestion, Conseiller fiscal",
             "Secteurs d’activité": "Entreprises publiques ou privées non financières, Institutions financières (Banques, Leasing, Assurances…), Cabinets d’expertise comptable",
             "Partenariats professionnels": "> Ordre des Experts Comptables                 de Tunisie, > Compagnie des Comptables de Tunisie, > Cabinets internationaux & Big 4",
+            "Période d'Harmonisation": "",
             "Semestre 1": "Normes de présentation Normes relatives aux instruments financiers Normes relatives aux actifs et passifs autres que les instruments financiers Audit et contrôle interne I Economie Digitale ERP, Gouvernance et sécurité des systèmes d’information (préparation à la certification Sage) Fiscalité directe Droit des entreprises commerciales Communication in Business English Projet intégré I/ Séminaire I",
             "Semestre 2": "Commissariat aux comptes Normes internationales relatives aux produits et autres thèmes particuliers Droit pénal des affaires Fiscalité indirecte Finance d’entreprise : investissements et financements Evaluation des entreprises Contrôle de gestion stratégique Management des projets Audit et contrôle interne II Ingénierie financière Projet intégré II/ Séminaires II",
             "Semestre 3": "Comptabilité : Fusion et Consolidation Gestion Juridique et fiscale des structures Audit et Contrôle interne III Finance Internationale Finance des marchés et gestion des risques Fiscalité Internationale Contrôle et contentieux fiscal Avantages Fiscaux Comptabilité internationale des entités publiques Anglais des affaires Projet intégré III Séminaire III",
-            "Semestre 4": "Cas de synthèse en comptabilité Cas de synthèse en Audit et contrôle interne Cas de synthèse en commissariat aux comptes et droit des affaires Cas de synthèse en fiscalité Cas de synthèse en Finance Cas de synthèse en contrôle de gestion Initiation à la méthodologie de recherche Stage"
+            "Semestre 4": "Cas de synthèse en comptabilité Cas de synthèse en Audit et contrôle interne Cas de synthèse en commissariat aux comptes et droit des affaires Cas de synthèse en fiscalité Cas de synthèse en Finance Cas de synthèse en contrôle de gestion Initiation à la méthodologie de recherche Stage",
+            "Semestre 5": "",
+            "Semestre 6": ""
         },
         {
             "Objectifs": "Le Master Professionnel en Marketing Digital vise à former des experts en Marketing digital et en communication capables de définir des actions stratégiques et opérationnelles et de mettre en pratique des plans de communication online et offline.\nLe Master Professionnel en Marketing Digital est disponible en double diplôme en Marketing de Luxe avec MBS et en Management de la Communication avec Sup’ de COM.",
@@ -158,7 +180,8 @@
             "Semestre 2": "Web marketing\nMarketing mobile\nTechnologie Web\nInfographie et Web design\nSocial media marketing\ne-CRM\nManagement des systèmes d’information\nAnglais II\nCompétences personnelles et relationnelles\nSéminaire métiers II\nProjet intégré II\nDéveloppement Web\nIntroduction au Big Data",
             "Semestre 3": "Web analyses\nAnalyse de données marketing\ne-Merchandising\ne-Commerce\nPolitique de référencement\nManagement interculturel\nAnglais III\nPréparation & insertion à la vie professionnelle\nSéminaire métiers III\nDesign thinking\nProjet intégré III\nGouvernance des données personnelles",
             "Semestre 4": "Stage en entreprise (PFE)",
-            "Période d’Harmonisation": "Probabilité et statistique\nAnalyse statistique\nAnalyse comportement opérationnel\nAtelier de programmation (R-Python)"
+            "Semestre 5": "",
+            "Semestre 6": ""
         }
     ]
 }
