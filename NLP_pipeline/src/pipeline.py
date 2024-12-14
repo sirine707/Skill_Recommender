@@ -1,5 +1,6 @@
 from .preprocess import preprocess_text
 from .vectorize import vectorize_text
+from .visualizations import visualize_ngrams
 import pandas as pd
 import numpy as np
 import seaborn as sns
@@ -10,6 +11,11 @@ from scipy.spatial.distance import cdist
 import dcor
 from scipy.stats import pearsonr, spearmanr, kendalltau
 
+def extract_ngrams(text, n=2):
+    """Extract n-grams from text."""
+    tokens = text.split()
+    ngrams = zip(*[tokens[i:] for i in range(n)])
+    return [' '.join(ngram) for ngram in ngrams]
 # Function to perform PCA or t-SNE based on input flag
 def reduce_dimensionality(data, method='PCA', n_components=2):
     if method == 'PCA':
@@ -89,6 +95,7 @@ def run_pipeline(file_paths, output_path, dim_reduction_method='PCA', n_componen
 
     # Align columns across all dataframes
     aligned_data_frames = align_columns(data_frames)
+    visualize_ngrams(aligned_data_frames, n=2, top_n=20)
 
     # Vectorize the data
     combined_vectors = vectorize_data(aligned_data_frames)
