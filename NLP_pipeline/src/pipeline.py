@@ -1,6 +1,3 @@
-from .preprocess import preprocess_text
-from .vectorize import vectorize_text
-from .visualizations import visualize_ngrams
 import pandas as pd
 import numpy as np
 import seaborn as sns
@@ -55,7 +52,7 @@ def process_file(file_path):
         data_df = pd.read_csv(file_path).fillna('').astype(str)
     elif file_path.endswith('.json'):
         data_df = pd.read_json(file_path).fillna('').astype(str)
-    
+
     for col in data_df.columns:
         data_df[col] = data_df[col].apply(preprocess_text)
 
@@ -66,14 +63,14 @@ def align_columns(data_frames):
     all_columns = set()
     for df in data_frames:
         all_columns.update(df.columns)
-    
+
     aligned_data_frames = []
     for df in data_frames:
         for col in all_columns:
             if col not in df.columns:
                 df[col] = ''
         aligned_data_frames.append(df[sorted(all_columns)])
-    
+
     return aligned_data_frames
 
 # Vectorize the data
@@ -100,7 +97,7 @@ def run_pipeline(file_paths, output_path, dim_reduction_method='PCA', n_componen
     # Vectorize the data
     combined_vectors = vectorize_data(aligned_data_frames)
     all_combined_vectors = np.vstack(combined_vectors)
-    
+
     # Perform dimensionality reduction (PCA or t-SNE)
     reduced_vectors = reduce_dimensionality(all_combined_vectors, method=dim_reduction_method, n_components=n_components)
 

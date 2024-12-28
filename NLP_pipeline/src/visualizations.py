@@ -27,10 +27,10 @@ def visualize_ngrams(data_frames, n=2, top_n=20):
         text_column = identify_text_column(df)
         for text in df[text_column]:
             all_ngrams.extend(extract_ngrams(text, n=n))
-    
+
     ngram_counts = Counter(all_ngrams)
     ngram_df = pd.DataFrame(ngram_counts.items(), columns=['ngram', 'count']).sort_values(by='count', ascending=False).head(top_n)
-    
+
     # Visualize using Plotly
     fig = px.bar(ngram_df, x='ngram', y='count', title=f'Top {top_n} {n}-grams', template='plotly_white', labels={'ngram': 'N-gram', 'count': 'Count'})
     fig.show()
@@ -42,10 +42,10 @@ def visualize_bigrams(data_frames, top_n=20):
         text_column = identify_text_column(df)
         for text in df[text_column]:
             all_bigrams.extend(extract_ngrams(text, n=2))
-    
+
     bigram_counts = Counter(all_bigrams)
     bigram_df = pd.DataFrame(bigram_counts.items(), columns=['ngram', 'count']).sort_values(by='count', ascending=False).head(top_n)
-    
+
     # Visualize using Plotly
     fig = px.bar(bigram_df[:20], x='ngram', y='count', title='Counts of top bigrams', template='plotly_white', labels={'ngram': 'Bigram', 'count': 'Count'})
     fig.show()
@@ -117,45 +117,45 @@ def visualize_bigram_similarity(data_frames, top_n=20, min_freq=2):
             if isinstance(text, str) and text.strip():
                 bigrams = extract_ngrams(text, n=2)
                 all_bigrams.extend(bigrams)
-    
+
     # Count and filter bigrams
     bigram_counts = Counter(all_bigrams)
     bigram_df = pd.DataFrame(bigram_counts.items(), columns=['bigram', 'count'])
     bigram_df = bigram_df.sort_values(by='count', ascending=False).head(top_n)
-    
+
     # Create TF-IDF matrix
     vectorizer = TfidfVectorizer()
     bigram_texts = [' '.join(b) if isinstance(b, tuple) else str(b) for b in bigram_df['bigram']]
     bigram_matrix = vectorizer.fit_transform(bigram_texts)
-    
+
     # Compute t-SNE with error handling
     n_samples = bigram_matrix.shape[0]
     perplexity = min(30, max(5, n_samples - 1))
     tsne = TSNE(n_components=2, random_state=42, perplexity=perplexity)
     tsne_embeddings = tsne.fit_transform(bigram_matrix.toarray())
-    
+
     # Create visualization DataFrame with explicit size calculation
     embed_df = pd.DataFrame(tsne_embeddings, columns=['tsne_1', 'tsne_2'])
     embed_df['bigram'] = bigram_texts
     embed_df['count'] = bigram_df['count'].values
-    
+
     # Normalize counts for size, handling edge cases
     min_count = embed_df['count'].min()
     max_count = embed_df['count'].max()
-    
+
     if min_count == max_count:
         embed_df['size'] = 20  # Use constant size if all counts are equal
     else:
         # Scale sizes between 10 and 50
         embed_df['size'] = 10 + ((embed_df['count'] - min_count) / (max_count - min_count)) * 40
-    
+
     # Verify no NaN values
     embed_df = embed_df.dropna(subset=['size', 'count'])
-    
+
     if embed_df.empty:
         print("No valid data points after cleaning")
         return
-    
+
     # Create scatter plot
     fig = px.scatter(
         embed_df,
@@ -169,7 +169,7 @@ def visualize_bigram_similarity(data_frames, top_n=20, min_freq=2):
         template='plotly_white',
         title='Bigram Similarity and Frequency'
     )
-    
+
     fig.update_traces(marker=dict(line=dict(width=1, color='Gray')))
     fig.show()
 
@@ -216,46 +216,3 @@ def visualize_topic_distributions(data_frames, n_topics=5, top_n=10, summary_wor
     print("\nTopics and their top words:")
     for i, words in enumerate(top_words):
         print(f"Topic {i+1}: {', '.join(words[:summary_words])}")
-
-    """Visualize topic distributions using LDA and Plotly."""
-    # Combine all text data
-    all_texts = []
-    for df in data_frames:
-        text_column = identify_text_column(df)
-        all_texts.extend(df[text_column])
-
-    # Vectorize the text data
-    vectorizer = CountVectorizer(stop_words='english')
-    text_matrix = vectorizer.fit_transform(all_texts)
-
-    # Fit LDA model
-    lda = LatentDirichletAllocation(n_components=n_topics, random_state=42)
-    lda.fit(text_matrix)
-
-    # Get topic distributions
-    topic_distributions = lda.transform(text_matrix)
-    topic_words = vectorizer.get_feature_names_out()
-
-    # Get the top words for each topic
-    top_words = []
-    for topic_idx, topic in enumerate(lda.components_):
-        top_words.append([topic_words[i] for i in topic.argsort()[:-top_n - 1:-1]])
-
-    # Prepare data for visualization
-    topic_df = pd.DataFrame(topic_distributions, columns=[f'Topic {i+1}' for i in range(n_topics)])
-    topic_df['text'] = all_texts
-
-    # Create a DataFrame for the top words
-    top_words_df = pd.DataFrame(top_words, index=[f'Topic {i+1}' for i in range(n_topics)], columns=[f'Word {i+1}' for i in range(top_n)])
-
-    # Visualize topic distributions using a heatmap
-    fig = px.imshow(topic_df.drop(columns=['text']).T, labels=dict(x="Document", y="Topic", color="Distribution"),
-                    x=topic_df.index, y=topic_df.columns[:-1], aspect="auto", title="Topic Distributions")
-    fig.update_layout(coloraxis_showscale=True)
-    fig.show()
-
-    # Visualize the top words for each topic
-    fig_top_words = px.imshow(top_words_df.T, text_auto=True, aspect='auto', title='Top Words for Each Topic',
-                              labels={'x': 'Topic', 'y': 'Top Words'}, template='plotly_white')
-    fig_top_words.update_layout(coloraxis_showscale=False)
-    fig_top_words.show()

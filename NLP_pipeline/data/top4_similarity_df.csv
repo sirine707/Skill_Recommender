@@ -1,0 +1,281 @@
+métier,Parcours,Similarity Score
+conception développement produire dassurance,MKD,14.5974045
+conception développement produire dassurance,MDSI,14.705302
+conception développement produire dassurance,GAMMA,14.854584
+conception développement produire dassurance,CCA,14.951353
+conseil clientèl assurance,BI,14.538005
+conseil clientèl assurance,FIND,14.589361
+conseil clientèl assurance,GAMMA,14.634124
+conseil clientèl assurance,CCA,14.759499
+courtage assurance,MKD,14.452027
+courtage assurance,GAMMA,14.501755
+courtage assurance,MDSI,14.698509
+courtage assurance,CCA,14.708588
+direction dexploitation assurance,MKD,14.439196
+direction dexploitation assurance,BI,14.514332
+direction dexploitation assurance,GAMMA,14.6927185
+direction dexploitation assurance,CCA,14.713554
+étude actuariel assurance,MDSI,14.699485
+étude actuariel assurance,CCA,14.829948
+étude actuariel assurance,GAMMA,14.926984
+étude actuariel assurance,FIND,14.995362
+expertise risque assurance,BI,14.87237
+expertise risque assurance,MDSI,14.942404
+expertise risque assurance,GAMMA,14.960504
+expertise risque assurance,CCA,15.163099
+indemnisation assurance,MKD,14.372982
+indemnisation assurance,MDSI,14.374777
+indemnisation assurance,GAMMA,14.568357
+indemnisation assurance,CCA,14.79714
+management groupe service assurance,BI,14.236019
+management groupe service assurance,LSGC,14.261929
+management groupe service assurance,GAMMA,14.400106
+management groupe service assurance,CCA,14.446774
+rédaction gestion assurance,LSGC,14.193895
+rédaction gestion assurance,FIND,14.211664
+rédaction gestion assurance,CCA,14.23327
+rédaction gestion assurance,BI,14.320778
+souscription dassurance,BA,14.970555
+souscription dassurance,GAMMA,15.027939
+souscription dassurance,FIND,15.032857
+souscription dassurance,CCA,15.067417
+accueil service bancaire,MDSI,14.655842
+accueil service bancaire,MKD,14.690419
+accueil service bancaire,FIND,14.695618
+accueil service bancaire,CCA,14.897583
+analyse crédit risque bancaire,GAMMA,14.817786
+analyse crédit risque bancaire,CCA,14.877406
+analyse crédit risque bancaire,MDSI,14.883093
+analyse crédit risque bancaire,FIND,15.364149
+relation client banqu finance,CCA,14.530882
+relation client banqu finance,MKD,14.54034
+relation client banqu finance,FIND,14.542707
+relation client banqu finance,LSGC,14.612705
+conception expertise produire bancaire financier,GAMMA,14.537558
+conception expertise produire bancaire financier,MKD,14.551931
+conception expertise produire bancaire financier,FIND,14.601434
+conception expertise produire bancaire financier,CCA,14.815176
+conseil gestion patrimoine financier,LSGC,14.800273
+conseil gestion patrimoine financier,FIND,14.913183
+conseil gestion patrimoine financier,CCA,14.932225
+conseil gestion patrimoine financier,MDSI,14.945221
+gestion clientèle bancaire,MDSI,14.940026
+gestion clientèle bancaire,MKD,15.017112
+gestion clientèle bancaire,CCA,15.097536
+gestion clientèle bancaire,FIND,15.168381
+management exploitation bancaire,MDSI,14.945078
+management exploitation bancaire,BIS,15.084458
+management exploitation bancaire,LSGC,15.114493
+management exploitation bancaire,CCA,15.380344
+front offic marché financier,MDSI,14.292452
+front offic marché financier,BI,14.345394
+front offic marché financier,FIND,14.366259
+front offic marché financier,CCA,14.402819
+gestion back middle office marché financier,BI,14.580313
+gestion back middle office marché financier,MDSI,14.626383
+gestion back middle office marché financier,LSGC,14.681934
+gestion back middle office marché financier,CCA,14.72019
+gestion portefeuille marché financier,MDSI,14.83982
+gestion portefeuille marché financier,LSGC,14.930445
+gestion portefeuille marché financier,CCA,15.037699
+gestion portefeuille marché financier,FIND,15.168595
+gestion banque assurance,LSGC,14.40071
+gestion banque assurance,MKD,14.434458
+gestion banque assurance,FIND,14.513334
+gestion banque assurance,CCA,14.665701
+gérance immobilier,LSGC,14.750457
+gérance immobilier,MDSI,14.801069
+gérance immobilier,CCA,14.935831
+gérance immobilier,BI,14.960418
+gestion locatif immobilier,MDSI,14.315686
+gestion locatif immobilier,GAMMA,14.499481
+gestion locatif immobilier,BI,14.516588
+gestion locatif immobilier,CCA,14.638735
+management projet immobilier,LSGC,14.841814
+management projet immobilier,GAMMA,14.869349
+management projet immobilier,FIND,14.959816
+management projet immobilier,CCA,14.986319
+transaction immobilier,FIND,15.381262
+transaction immobilier,MDSI,15.474277
+transaction immobilier,CCA,15.520887
+transaction immobilier,MKD,15.590834
+représentation letat territoire national international,BIS,14.604568
+représentation letat territoire national international,MKD,14.69758
+représentation letat territoire national international,CCA,14.871513
+représentation letat territoire national international,MDSI,14.902884
+application règle financier public,LSGC,14.276972
+application règle financier public,MDSI,14.384691
+application règle financier public,CCA,14.441909
+application règle financier public,GAMMA,14.602489
+contrôle inspection affaire social,FIND,14.607363
+contrôle inspection affaire social,MDSI,14.707018
+contrôle inspection affaire social,CCA,14.747917
+contrôle inspection affaire social,LSGC,14.751663
+contrôle inspection impôt,GAMMA,14.5518265
+contrôle inspection impôt,LSGC,14.607578
+contrôle inspection impôt,MDSI,14.636431
+contrôle inspection impôt,CCA,14.687094
+contrôle inspection trésor public,BIS,14.824649
+contrôle inspection trésor public,MDSI,15.037655
+contrôle inspection trésor public,CCA,15.101843
+contrôle inspection trésor public,LSGC,15.216562
+achat,MDSI,14.60503
+achat,FIND,14.776133
+achat,CCA,14.825537
+achat,GAMMA,14.951126
+direction achat,MDSI,14.225881
+direction achat,LSGC,14.267058
+direction achat,MKD,14.4262705
+direction achat,CCA,14.542122
+analyse ingénieri financier,GAMMA,14.973395
+analyse ingénieri financier,MDSI,15.042113
+analyse ingénieri financier,CCA,15.149443
+analyse ingénieri financier,FIND,15.31094
+audit contrôle comptable financier,MDSI,15.041833
+audit contrôle comptable financier,LSGC,15.097551
+audit contrôle comptable financier,GAMMA,15.388858
+audit contrôle comptable financier,CCA,15.575453
+comptabilité,BI,14.8347645
+comptabilité,GAMMA,14.872979
+comptabilité,LSGC,14.9882145
+comptabilité,CCA,15.14893
+contrôle gestion,MKD,14.590426
+contrôle gestion,LSGC,14.607397
+contrôle gestion,BIS,14.62639
+contrôle gestion,CCA,14.947255
+direction administratif financier,GAMMA,14.7806835
+direction administratif financier,FIND,14.911533
+direction administratif financier,LSGC,14.935293
+direction administratif financier,CCA,15.0483055
+management groupe service comptable,BIS,14.869194
+management groupe service comptable,MDSI,15.032368
+management groupe service comptable,CCA,15.075188
+management groupe service comptable,LSGC,15.110018
+trésorerie financement,BIS,14.829508
+trésorerie financement,LSGC,14.919386
+trésorerie financement,FIND,14.955314
+trésorerie financement,CCA,15.015848
+direction grand entreprise détablissement public,LSGC,15.197823
+direction grand entreprise détablissement public,CCA,15.354484
+direction grand entreprise détablissement public,MKD,15.370283
+direction grand entreprise détablissement public,MDSI,15.539575
+direction petit moyenne entreprendre,MDSI,14.478057
+direction petit moyenne entreprendre,MKD,14.553261
+direction petit moyenne entreprendre,GAMMA,14.625429
+direction petit moyenne entreprendre,CCA,14.769661
+conduite denquête,MDSI,14.466315
+conduite denquête,BA,14.470726
+conduite denquête,CCA,14.769815
+conduite denquête,GAMMA,15.146832
+conseil organisation management dentreprise,LSGC,14.3911495
+conseil organisation management dentreprise,MKD,14.43568
+conseil organisation management dentreprise,CCA,14.578102
+conseil organisation management dentreprise,BI,14.634886
+étude prospectif socio économique,BIS,14.765966
+étude prospectif socio économique,MKD,14.783066
+étude prospectif socio économique,BA,14.918432
+étude prospectif socio économique,GAMMA,15.144936
+assistanat ressource humain,MKD,14.721464
+assistanat ressource humain,MDSI,14.798784
+assistanat ressource humain,CCA,14.805881
+assistanat ressource humain,LSGC,14.831733
+développement ressource humain,BIS,14.921835
+développement ressource humain,BI,14.942954
+développement ressource humain,CCA,15.054598
+développement ressource humain,LSGC,15.121986
+management ressource humain,MDSI,14.831319
+management ressource humain,MKD,14.929661
+management ressource humain,LSGC,15.020825
+management ressource humain,CCA,15.044949
+opération administratif,LSGM,14.40601
+opération administratif,LMAD,14.431698
+opération administratif,FIND,14.453854
+opération administratif,CCA,14.565273
+assistanat direction,LSGM,14.414076
+assistanat direction,MKD,14.482967
+assistanat direction,CCA,14.574378
+assistanat direction,LSGC,14.718838
+assistanat technique administratif,BIS,14.238152
+assistanat technique administratif,CCA,14.363028
+assistanat technique administratif,LSGC,14.366828
+assistanat technique administratif,BI,14.376768
+secrétariat comptable,MKD,14.689522
+secrétariat comptable,LSGC,14.723971
+secrétariat comptable,MDSI,14.743383
+secrétariat comptable,CCA,14.8381
+administration vente,LSGC,14.780236
+administration vente,MKD,14.901527
+administration vente,GAMMA,14.966547
+administration vente,CCA,15.122952
+analyse tendance,BIS,14.770054
+analyse tendance,MDSI,14.861437
+analyse tendance,LSGC,14.875936
+analyse tendance,CCA,14.990424
+management gestion produit,GAMMA,14.497852
+management gestion produit,BIS,14.529663
+management gestion produit,MKD,14.582188
+management gestion produit,CCA,14.67168
+management relation clientèle,LSGC,14.452942
+management relation clientèle,BI,14.560707
+management relation clientèle,MKD,14.613809
+management relation clientèle,CCA,14.679163
+marketing,BIS,14.944458
+marketing,MKD,14.992796
+marketing,MDSI,15.006775
+marketing,CCA,15.086794
+promotion vente,BIS,14.409273
+promotion vente,MDSI,14.459682
+promotion vente,CCA,14.503797
+promotion vente,GAMMA,14.613249
+stratégie commercial,FIND,14.53725
+stratégie commercial,GAMMA,14.634953
+stratégie commercial,MKD,14.733715
+stratégie commercial,CCA,14.911552
+administration système dinformation,MDSI,14.942749
+administration système dinformation,BIS,14.986416
+administration système dinformation,CCA,15.030723
+administration système dinformation,BI,15.149234
+expertise support système dinformation,FIND,14.762625
+expertise support système dinformation,MDSI,14.791695
+expertise support système dinformation,BI,14.970732
+expertise support système dinformation,CCA,14.993736
+direction système dinformation,MDSI,14.643864
+direction système dinformation,FIND,14.676605
+direction système dinformation,CCA,14.7568
+direction système dinformation,BI,14.789579
+étude développement réseau télécommunication,MDSI,14.54612
+étude développement réseau télécommunication,GAMMA,14.557173
+étude développement réseau télécommunication,CCA,14.64152
+étude développement réseau télécommunication,MKD,14.680699
+étude développement informatique,BI,14.997665
+étude développement informatique,BIS,15.096713
+étude développement informatique,MKD,15.128536
+étude développement informatique,CCA,15.168321
+conseil maîtris douvrage système dinformation,GAMMA,14.786633
+conseil maîtris douvrage système dinformation,BIS,14.879675
+conseil maîtris douvrage système dinformation,CCA,15.010429
+conseil maîtris douvrage système dinformation,BI,15.370458
+exploitation système communication,CCA,15.226191
+exploitation système communication,BI,15.242522
+exploitation système communication,MDSI,15.3204975
+exploitation système communication,GAMMA,15.425571
+production exploitation système dinformation,BI,14.924486
+production exploitation système dinformation,MDSI,15.029037
+production exploitation système dinformation,GAMMA,15.049742
+production exploitation système dinformation,CCA,15.131683
+gestion opération circulation international marchandise,MDSI,14.647858
+gestion opération circulation international marchandise,GAMMA,14.667389
+gestion opération circulation international marchandise,MKD,14.780697
+gestion opération circulation international marchandise,CCA,14.796507
+conception organisation chaîne logistique,GAMMA,14.60994
+conception organisation chaîne logistique,BI,14.628204
+conception organisation chaîne logistique,MDSI,14.665272
+conception organisation chaîne logistique,CCA,14.866026
+direction site logistique,MKD,14.801469
+direction site logistique,BIS,14.849754
+direction site logistique,GAMMA,14.87101
+direction site logistique,CCA,15.059603
+intervention technique dexploitation logistique,MDSI,14.867001
+intervention technique dexploitation logistique,LSGC,14.914105
+intervention technique dexploitation logistique,GAMMA,15.256074
+intervention technique dexploitation logistique,CCA,15.256289
