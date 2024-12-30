@@ -1,6 +1,7 @@
 pandas
 numpy==1.26.3
 scipy
+dcor
 scikit-learn
 nltk
 spacy
